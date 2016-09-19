@@ -1,0 +1,127 @@
+/*font-family: 'Open Sans', sans-serif;
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+font-family: 'Libre Franklin', sans-serif;
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	border: 0px;
+	display: block;
+}
+
+/*ETIQUETAS*/
+body{
+background-image: white;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	margin-lef: 1000px;
+	margin-top: auto;
+	font-size: 20px;
+    text-align: center;
+   
+}
+/*
+h3{
+	font-family: 'Libre Franklin', sans-serif;
+	color: white;
+	margin-left : 100px;
+	font-size: 14px;
+    text-align: center;
+}
+*/
+header{
+	width: auto;
+	height: 90px;
+	background: #0070a8;
+	border-radius: 10px;
+    box-shadow: 0 0 10px white inset;
+    margin-top: 5px;
+
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: coral;
+	margin-top: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+
+}
+ul{
+	margin: auto;
+	padding-top: 4px; 
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 5px;
+	background: orange;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+
+}
+
+section{
+	width: 1000px;
+	background: #125893;
+	height: 600px;
+	float: left;
+	margin-top: 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+img{
+	border-radius: 10px;
+	box-shadow: 0 0 100px white inset;
+	margin-top: 10px;
+}
+
+.banner{
+	width: 1000px;
+	height: 50px;
+	border: 2px;
+	margin: auto;
+	background: #0070a8;
+	background-image: url(img/unad1.jpg)
+	background-size: 100% 100%;
+	border-radius: 10px;
+	
+
+
+}
+
+
+
+
+
+/*CLASES*/
+.ancho_new_home{width: 900px;}
+.ancho_new_paginas{width: 97px;}
+
+.menu:link{padding: 7px; color: white; text-decoration: none;}
+.menu:visited{padding: 7px; color: white; text-decoration: none;}
+.menu:hover{padding: 7px; color: white; text-decoration: none;}
+.menu:active{padding: 7px; color: white; text-decoration: none;}
+
+/*SEUDO CLASS */
+
+li:hover{
+	background: blue;
+    box-shadow: 0 0 10px white inset;
+}
