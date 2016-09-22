@@ -17,10 +17,11 @@ font-family: 'Libre Franklin', sans-serif;
 	display: block;
 }
 
-/*ETIQUETAS*/
+						/*ETIQUETAS*/
 body{
 background-image: white;
 background-repeat: no-repeat;
+background: brown;
 background-size: cover;
 }
 
@@ -54,8 +55,8 @@ header{
 
 nav{
 	width: 1000px;/*ancho de segundo cuadro*/
-	height: 50px;/*largo de segundo cuadro*/
-	background: red;
+	height: 500px;/*largo de segundo cuadro*/
+	background: grey;
 	margin-top: 5px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px white inset;
