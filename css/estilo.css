@@ -44,7 +44,7 @@ h3{
 }
 */
 header{
-	width: 1150px;
+	width: 1180px;
 	height: 55px;
 	background: darkblue;
 	border-radius: 10px;
@@ -70,7 +70,7 @@ li{
 	float: left; /*rigth vertical left horizontal*/
 	list-style-type: none;
 	padding: 5px;
-	background: orange;/*opcios*/
+	background: orange;/*opciones*/
 	margin: 5px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset;
