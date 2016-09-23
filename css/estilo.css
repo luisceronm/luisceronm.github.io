@@ -21,13 +21,13 @@ font-family: 'Libre Franklin', sans-serif;
 body{
 background-image: white;
 background-repeat: no-repeat;
-background: brown;
+background: white;
 background-size: cover;
 }
 
 h1{
 	font-family: 'Open Sans', sans-serif;
-	color: yellow;
+	color: white;
 	margin-lef: 1000px;
 	margin-top: auto;
 	font-size: 22px;
@@ -44,9 +44,9 @@ h3{
 }
 */
 header{
-	width: auto;
-	height: 90px;
-	background: #0070a8;
+	width: 1180px;
+	height: 55px;
+	background: darkblue;
 	border-radius: 10px;
     box-shadow: 0 0 10px white inset;
     margin-top: 5px;
@@ -56,7 +56,7 @@ header{
 nav{
 	width: 1000px;/*ancho de segundo cuadro*/
 	height: 500px;/*largo de segundo cuadro*/
-	background: grey;
+	background: WhiteSmoke;
 	margin-top: 5px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px white inset;
@@ -70,7 +70,7 @@ li{
 	float: left; /*rigth vertical left horizontal*/
 	list-style-type: none;
 	padding: 5px;
-	background: coral;
+	background: DarkBlue;/*opciones*/
 	margin: 5px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset;
@@ -99,7 +99,7 @@ img{
 	height: 50px;
 	border: 2px;
 	margin: auto;
-	background: #0070a8;
+	background: orange;
 	background-image: url(img/unad.jpg)
 	background-size: 100% 100%;
 	border-radius: 10px;
