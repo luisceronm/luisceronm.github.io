@@ -16,6 +16,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
 
 	   <!--script despues de body para agilizar-->
 		<script scr="js/modernize.js"></script>
@@ -49,5 +50,38 @@
 	<footer><Derechos Reservados de Autor></footer>
 	</DIV
 	
+=======
+<?php
+ 
+if(isset($_REQUEST['base']) && isset($_REQUEST['exponente']))
+{
+	$suma = 0;
+	$factor = 1;
+	for($i=1;$i<=$_REQUEST['exponente'];$i++)
+	{
+		$suma = 0;
+		for($j=1;$j<=$_REQUEST['base'];$j++)
+		{
+			$suma += $factor;
+        }
+		$factor = $suma;
+   }
+ 
+	echo "La base ".$_REQUEST['base']." elevada al exponente ".$_REQUEST['exponente']." da :".$suma ;
+ 
+}
+  ?>
+ 
+  <form method="post" action="index.php">
+  <label for="fecha" style="font-size:24" class="req">Ingrese la base:</label> &nbsp &nbsp
+  <input type="text" name="base" style="font-size:14">
+  <br> <br>
+  <label for="fecha" style="font-size:24" class="req">Ingrese el exponente:</label> &nbsp &nbsp
+  <input type="text" name="exponente" style="font-size:14">
+  <br> <br>
+  <input style="font-size:24" type="submit" value="Calcular">
+  </form>
+ 
+>>>>>>> origin/master
 </body>
 </html>
