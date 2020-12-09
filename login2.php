@@ -1,18 +1,7 @@
+<html lang="en" class"no-js"=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--comentario-->
 
-<head>
-<title>validar</title>
-</head>
-<?
-$clave1 = $_RECUEST[`clave1`];
-$clave2 = $_RECUEST[`clave2`];
-$clave3 = 123;
-if( $clave == $clave2 )
-{
-	if( $clave2 == $clave3 )
-	{		header(`location: /fase_4_basededatos/login.php`);
-	}
-	else
-	{		echo "contraseña incorrecta";
-	}
-		
-	::
+	
+	<meta content="Luis Ceron Martinez" name="author">
+	<meta content="diseño sitios web" name="descripción">
+	<meta content="diseño, sitios, web" name="keywords">

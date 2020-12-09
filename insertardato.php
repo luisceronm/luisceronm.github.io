@@ -1,31 +1,21 @@
- <?php
+<html lang="en" class"no-js"=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--comentario-->
 
-include ("Conexion.php");
+	
+	<meta content="Luis Ceron Martinez" name="author">
+	<meta content="diseño sitios web" name="descripción">
+	<meta content="diseño, sitios, web" name="keywords">
+	<title>Programacion De Sitios WEB</title>
+	<link rel="stylesheet" href="./Diseño De Sitios WEB_files/normalize.css">
+	<link rel="stylesheet" href="./Diseño De Sitios WEB_files/estilo.css">
+</head>
 
-
-
-$Con= mysqli_connect($s, $u, $p, $bd);
-
-if (!$Con) {
-    die("La conexion fallo: " . mysqli_connect_error());
-}
-
-
-$Foto_Producto =$_FILES["foto"]["name"];
-$Ruta = $_FILES ["foto"] ["tmp_name"];
-$Dest = "imagenes/" .$Foto_Producto;
-copy($Ruta, $Dest);
-
-
-
-$sql = "INSERT INTO reg_computadores (Serial_Producto, Foto_Producto, Velocidad_Procesador, Marca, Cap_RAM, Cap_Disco_Duro)
-VALUES ('$_POST[Serial]', '$Dest', '$_POST[Velocidad_procesador]', '$_POST[Marca]', '$_POST[Capacidad_RAM]', '$_POST[Capacidad_Disco]')";
-
-if (mysqli_query($Con, $sql)) {
-    echo "Los datos se grabaron correctamente";
-} else {
-    echo "Error: " . $sql . "<br>" . mysqli_error($Con);
-}
-
-mysqli_close($conn);
-?>
+<body>
+	   <!--script despues de body para agilizar-->
+		<script scr="js/modernize.js"></script>
+		<script scr="js/prefixfree.min.js"></script>
+		<script scr="js/jquery-3.1.0.js"></script>
+	
+	<div id="contenidos">
+				
+		<img src="./fotos/clini
