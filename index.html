@@ -92,6 +92,21 @@ La versión descargable está disponible en <a href="URL">Enlace</a>.
 </video></center>
 
 <p>la Universidad el espacio digital.</p>
+<?php
+$archivo =  "contador.txt";
+$contador = 0;
 
+$fp = fopen($archivo, "r");
+$contador = fgets($fp, 26);
+fclose($fp);
+
+$contador=$contador+1;
+
+$fp = fopen($archivo,"w+");
+fwrite($fp, $contador, 26);
+fclose($fp);
+
+echo "visitas ".$contador . "veces";
+?>
 </body>
 </html>
